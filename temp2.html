@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+    <style>
+        * {
+          margin: 5px;
+        }
+  
+        .container {
+          background-color: paleturquoise;
+        }
+        .container1 {
+          background-color: beige;
+        }
+        </style>
+</head>
+<body>
+    <h1> FORMS</h1>
+    <h3> Login Form</h3>
+    <div class="container">
+    <form>
+        <fieldset>
+            <legend>Personal Info:</legend>
+        <p>
+            <input type="text" required placeholder="Enter Name" ><br>
+        </p>
+            <p>
+            <input type="text" required placeholder="Enter Email" ><br>
+        </p>
+        <p>
+            <input type="password" required placeholder="Enter password" ><br>
+        </p>
+        
+        <p>
+            State:<br>
+            <select>
+                <option>AP</option>
+                <option>TS</option>
+                <option>TN</option>
+            </select>
+        </p>
+    </fieldset>
+    <p>
+        <input type="checkbox" id="c"><label for="c">Remember me</label>
+    </p>
+    <p>
+        <button>SUBMIT</button>
+       <button>RESET</button>
+    </p>
+    </form>
+</div>
+    <hr>
+    <h3>Signup Form</h3>
+    <div class="container1">
+    <form>
+        <fieldset>
+            <legend>Personal Info:</legend>
+            <p>
+            <input type="text" required placeholder="Enter Email" ><br>
+        </p>
+        <p>
+            <input type="password" required placeholder="Enter password" ><br>
+        </p>
+    </fieldset>
+        <fieldset>
+            <legend>Educational Information:</legend>
+            <p>
+                Skills:<br>
+                <input type="checkbox" id="h"><label for="h">HTML</label><br>
+                <input type="checkbox" id="s"><label for="s">CSS</label><br>
+                <input type="checkbox" id="j"><label for="j">Javascript</label><br>
+            </p>
+            <p>
+                Qualification:<br> 
+                <input type="radio" id="Q"><label for="Q">BE</label><br>
+                <input type="radio" id="Q"><label for="Q">BTech</label><br>
+            </p>
+        </fieldset>
+    </form>
+    <p>
+        <input type="checkbox" id="chkRemember"><label for="chkRemember">Remember me</label>
+    </p>
+    <p>
+        <button>SUBMIT</button>
+    <button>RESET</button>
+</p>
+</div>
+</body>
+</html>
